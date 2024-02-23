@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faPersonCircleQuestion,
   faEarthAmerica,
+  faCode,
 } from "@fortawesome/free-solid-svg-icons";
 import { useInView } from "react-intersection-observer";
 import BackToTop from "./functionnalities/BackToTop";
@@ -29,6 +30,7 @@ const listProject = [
       "I crafted this project from scratch. I created simple and reusable components that can be reintroduced into other projects with minimal changes.",
     technologies: "ReactJs",
     images: imagesPort,
+    sourceCode: "https://github.com/bwbhub/Portfolio/tree/master",
   },
   {
     title: "Kasa-Immobilier",
@@ -37,6 +39,7 @@ const listProject = [
       "Front-end developer, create reusable ReactJs components, following a Figma model",
     technologies: "ReactJs",
     images: imagesKasa,
+    sourceCode: "https://github.com/bwbhub/kasa-immo",
   },
   {
     title: "Vieux grimoire",
@@ -45,6 +48,7 @@ const listProject = [
       "Back-end developer, create an Express server, develop an API and connect to MongoDB, create a securised authentification system with hashed password and token",
     technologies: "Express, Node.Js, MongoDB",
     images: imagesBook,
+    sourceCode: "https://github.com/bwbhub/P7-Dev-Web-livres",
   },
 ];
 
@@ -62,8 +66,21 @@ export default function Projects() {
               className={`project hidden ${isVisible ? "active" : ""}`}
             >
               <Carousel picture={value.images} />
+
               <div className="content">
-                <h3>{value.title}</h3>
+                <div className="header">
+                  <h3>{value.title}</h3>
+                  <a
+                    href={value.sourceCode}
+                    className="tag"
+                    target="blank"
+                    rel="noopener noreferrer"
+                  >
+                    {" "}
+                    <FontAwesomeIcon icon={faCode} />
+                    <span>Source code</span>
+                  </a>
+                </div>
                 <div className="des">{value.des}</div>
                 <div className="mission">
                   <div>
