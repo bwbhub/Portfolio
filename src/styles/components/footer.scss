@@ -1,0 +1,17 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  padding-bottom: 30px;
+  position: relative;
+  width: min(300px, 100%);
+  margin: auto;
+  & hr {
+    width: min(300px, 100%);
+  }
+  & .text {
+    text-align: center;
+    font-size: 0.75rem;
+  }
+}

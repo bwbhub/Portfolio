@@ -1,0 +1,74 @@
+@import url("../fonts.scss");
+
+#skills {
+  margin-top: 10px;
+  padding: 40px;
+  & .skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 300px;
+    @media screen and (max-device-width: 590px) {
+      margin-bottom: 100px;
+    }
+    & .main-title {
+      font-size: var(--fs-xl);
+    }
+    & .container {
+      display: flex;
+      width: 100%;
+      justify-content: space-around;
+      @media all and (max-device-width: 1025px) {
+        max-width: 600px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px 0;
+      }
+      & .column {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        & .title {
+          font-size: var(--fs-l);
+        }
+        & .uolist {
+          display: flex;
+          flex-direction: column;
+          list-style: none;
+          gap: 10px;
+          & .list {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: var(--fs-m);
+            & .logo {
+              width: var(--fs-xl);
+            }
+          }
+        }
+      }
+    }
+    & :nth-child(2) {
+      transition-delay: 300ms;
+    }
+    & :nth-child(3) {
+      transition-delay: 500ms;
+    }
+    & :nth-child(4) {
+      transition-delay: 700ms;
+    }
+  }
+  & .hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+  }
+  & .active {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+  }
+}
