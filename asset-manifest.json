@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.2df3bab6.css",
+    "main.js": "/Portfolio/static/js/main.4d139479.js",
+    "static/media/kasa1.png": "/Portfolio/static/media/kasa1.db054b1285dba87b9d30.png",
+    "static/media/book1.png": "/Portfolio/static/media/book1.a084d18215feca273735.png",
+    "static/media/kasa3.png": "/Portfolio/static/media/kasa3.afc8aa23d8769dadafe0.png",
+    "static/media/kasa4.png": "/Portfolio/static/media/kasa4.23e38b071cd140dee554.png",
+    "static/media/kasa2.png": "/Portfolio/static/media/kasa2.6808b9e336236ccea63b.png",
+    "static/media/book4.png": "/Portfolio/static/media/book4.29d602afa84f4fa0e61f.png",
+    "static/media/book3.png": "/Portfolio/static/media/book3.2d1cdd941c1928489423.png",
+    "static/media/portfolio3.png": "/Portfolio/static/media/portfolio3.2961413740f26c06617b.png",
+    "static/media/portfolio1.png": "/Portfolio/static/media/portfolio1.82bdc68665f946569a0d.png",
+    "static/media/photo1.webp": "/Portfolio/static/media/photo1.0258e9daa1b783f33c8e.webp",
+    "static/media/portfolio2.png": "/Portfolio/static/media/portfolio2.7ec2d5c9c39c71494095.png",
+    "static/media/book2.png": "/Portfolio/static/media/book2.83af5a74dfd2b4804483.png",
+    "static/media/sass.svg": "/Portfolio/static/media/sass.f258d3a44e6b2afd0bec4d84f179a524.svg",
+    "static/media/reactjs.svg": "/Portfolio/static/media/reactjs.fcca8017310f0cf8ffba4dbf899f2779.svg",
+    "static/media/github.svg": "/Portfolio/static/media/github.5531be85d7a8d6f333e5c7136944a022.svg",
+    "static/media/postman.svg": "/Portfolio/static/media/postman.1d7edaecb26d83fcb1832655212f8a38.svg",
+    "static/media/figma.svg": "/Portfolio/static/media/figma.7828a171881c10bbefff2a5fd015a4a9.svg",
+    "static/media/nodejs.svg": "/Portfolio/static/media/nodejs.070a1c1c9441eb14f03262e92d454003.svg",
+    "static/media/mongodb.svg": "/Portfolio/static/media/mongodb.9b4df7b9f53a3039990c289e2d318c78.svg",
+    "static/media/express.svg": "/Portfolio/static/media/express.076c798a78385ade2dc698f1a1d92613.svg",
+    "index.html": "/Portfolio/index.html",
+    "main.2df3bab6.css.map": "/Portfolio/static/css/main.2df3bab6.css.map",
+    "main.4d139479.js.map": "/Portfolio/static/js/main.4d139479.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2df3bab6.css",
+    "static/js/main.4d139479.js"
+  ]
+}
