@@ -2,8 +2,9 @@ import "../styles/components/hero.scss";
 import photo from "../assets/photo1.webp";
 import { useInView } from "react-intersection-observer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope, faFile } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+import resume from "../assets/Brice_Bouhot_CV.pdf";
 
 export default function Hero() {
   const { ref: heroRef, inView: isVisible } = useInView();
@@ -35,6 +36,16 @@ export default function Hero() {
             >
               <FontAwesomeIcon icon={faLinkedin} />
               <span>LinkedIn</span>
+            </a>
+            <a
+              href={resume}
+              target="blank"
+              rel="noopener noreferrer"
+              download={resume}
+              className="tag"
+            >
+              <FontAwesomeIcon icon={faFile} />
+              <span>Resume</span>
             </a>
             <button
               className="tag"

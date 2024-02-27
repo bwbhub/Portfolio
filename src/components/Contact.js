@@ -46,7 +46,7 @@ export default function Contact() {
             <input type="email" name="email_id" id="email_id" required />
           </div>
           <div className="user-box">
-            <label htmlFor="nessage">Message</label>
+            <label htmlFor="message">Message</label>
             <textarea name="message" id="message" required />
           </div>
           <input type="submit" value="Send" className="submit-form" />
