@@ -46,11 +46,15 @@
           color: #fff;
           background-color: #1b1b1b;
           cursor: pointer;
+          transition: 300ms;
           @media screen and (max-device-width: 590px) {
             font-size: var(--fs-xl);
             span {
               display: none;
             }
+          }
+          &:hover {
+            transform: scale(1.15);
           }
         }
       }

@@ -10,4 +10,8 @@
   background-color: #1b1b1b;
   cursor: pointer;
   z-index: 100;
+  transition: 300ms;
+  &:hover {
+    transform: scale(1.2);
+  }
 }

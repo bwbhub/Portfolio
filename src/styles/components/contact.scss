@@ -73,8 +73,12 @@
         color: #fff;
         background-color: #1b1b1b;
         cursor: pointer;
+        transition: 300ms;
         @media screen and (max-device-width: 550px) {
           width: 120px;
+        }
+        &:hover {
+          transform: scale(1.1);
         }
       }
     }

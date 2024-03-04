@@ -25,13 +25,16 @@ header {
   }
   & .header-nav {
     display: flex;
-    gap: 15px;
+    gap: 20px;
     align-items: center;
     & .header-nav-link {
       list-style: none;
       cursor: pointer;
       color: #1b1b1b;
       font-size: var(--fs-m);
+      &:hover {
+        text-decoration: underline;
+      }
     }
   }
 }
