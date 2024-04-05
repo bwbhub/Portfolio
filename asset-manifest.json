@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.dd479f30.css",
-    "main.js": "/Portfolio/static/js/main.5969d2a5.js",
+    "main.js": "/Portfolio/static/js/main.f586ce3a.js",
     "static/media/cine-station-3.png": "/Portfolio/static/media/cine-station-3.6ff09da2df6f9b6a2d7b.png",
     "static/media/Brice_Bouhot_CV.pdf": "/Portfolio/static/media/Brice_Bouhot_CV.3f373abbc6b0e086e859.pdf",
     "static/media/cine-station-2.png": "/Portfolio/static/media/cine-station-2.ed6c2092848d0e29c0f7.png",
@@ -15,8 +15,8 @@
     "static/media/portfolio1.png": "/Portfolio/static/media/portfolio1.82bdc68665f946569a0d.png",
     "static/media/photo1.webp": "/Portfolio/static/media/photo1.0258e9daa1b783f33c8e.webp",
     "static/media/portfolio2.png": "/Portfolio/static/media/portfolio2.7ec2d5c9c39c71494095.png",
-    "static/media/cine-station-7.png": "/Portfolio/static/media/cine-station-7.5a20a09f04bca65be8f6.png",
-    "static/media/cine-station-6.png": "/Portfolio/static/media/cine-station-6.c659fea16d760487b741.png",
+    "static/media/cine-station-7.png": "/Portfolio/static/media/cine-station-7.b3b08c8225d4f36a4041.png",
+    "static/media/cine-station-6.png": "/Portfolio/static/media/cine-station-6.5db419333c702c2609b2.png",
     "static/media/book2.png": "/Portfolio/static/media/book2.83af5a74dfd2b4804483.png",
     "static/media/sass.svg": "/Portfolio/static/media/sass.2a06e46f0263bdac1ffd4c984775be51.svg",
     "static/media/reactjs.svg": "/Portfolio/static/media/reactjs.7442aa5b9ef5dbc21463289d68beeb64.svg",
@@ -28,10 +28,10 @@
     "static/media/mongodb.svg": "/Portfolio/static/media/mongodb.b6ed15d3c71dfb582a3b37101b6c8bc4.svg",
     "static/media/express.svg": "/Portfolio/static/media/express.a6606d033000bf34a5cfd8d1e9e92813.svg",
     "main.dd479f30.css.map": "/Portfolio/static/css/main.dd479f30.css.map",
-    "main.5969d2a5.js.map": "/Portfolio/static/js/main.5969d2a5.js.map"
+    "main.f586ce3a.js.map": "/Portfolio/static/js/main.f586ce3a.js.map"
   },
   "entrypoints": [
     "static/css/main.dd479f30.css",
-    "static/js/main.5969d2a5.js"
+    "static/js/main.f586ce3a.js"
   ]
 }
