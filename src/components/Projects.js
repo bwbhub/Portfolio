@@ -31,6 +31,7 @@ const listProject = [
     technologies: "MongoDB, Express, ReactJS, NodeJS",
     images: imagesCineStation,
     sourceCode: "https://github.com/bwbhub/cine-station",
+    linkTo: "https://cine-station.vercel.app/",
   },
   {
     title: "Portfolio",
@@ -70,6 +71,16 @@ export default function Projects() {
               <div className="content">
                 <div className="header">
                   <h3>{value.title}</h3>
+                  <a
+                    href={value.linkTo}
+                    className="tag"
+                    target="blank"
+                    rel="noopener noreferrer"
+                  >
+                    {" "}
+                    <FontAwesomeIcon icon={faCode} />
+                    <span>Visit</span>
+                  </a>
                   <a
                     href={value.sourceCode}
                     className="tag"
