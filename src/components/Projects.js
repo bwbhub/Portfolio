@@ -71,16 +71,18 @@ export default function Projects() {
               <div className="content">
                 <div className="header">
                   <h3>{value.title}</h3>
-                  <a
-                    href={value.linkTo}
-                    className="tag"
-                    target="blank"
-                    rel="noopener noreferrer"
-                  >
-                    {" "}
-                    <FontAwesomeIcon icon={faCode} />
-                    <span>Visit</span>
-                  </a>
+                  {value.linkTo ? (
+                    <a
+                      href={value.linkTo}
+                      className="tag"
+                      target="blank"
+                      rel="noopener noreferrer"
+                    >
+                      {" "}
+                      <FontAwesomeIcon icon={faCode} />
+                      <span>Visit</span>
+                    </a>
+                  ) : null}
                   <a
                     href={value.sourceCode}
                     className="tag"
