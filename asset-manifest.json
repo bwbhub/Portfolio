@@ -1,20 +1,23 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.dd479f30.css",
-    "main.js": "/Portfolio/static/js/main.d5d6c876.js",
+    "main.js": "/Portfolio/static/js/main.4a8bf6dc.js",
+    "static/media/cine-station-1.png": "/Portfolio/static/media/cine-station-1.260c0585c2320cb0468d.png",
+    "static/media/cine-station-3.png": "/Portfolio/static/media/cine-station-3.c6bdfa1500e2e8652a47.png",
+    "static/media/cine-station-2.png": "/Portfolio/static/media/cine-station-2.12ff63506cc3a3bcf2d4.png",
+    "static/media/cine-station-5.png": "/Portfolio/static/media/cine-station-5.63761ed9f14548f4ca49.png",
     "static/media/Brice_Bouhot_CV.pdf": "/Portfolio/static/media/Brice_Bouhot_CV.3f373abbc6b0e086e859.pdf",
-    "static/media/kasa1.png": "/Portfolio/static/media/kasa1.db054b1285dba87b9d30.png",
+    "static/media/cine-station-4.png": "/Portfolio/static/media/cine-station-4.9108c529162dbe5e29ab.png",
     "static/media/book1.png": "/Portfolio/static/media/book1.a084d18215feca273735.png",
-    "static/media/kasa3.png": "/Portfolio/static/media/kasa3.afc8aa23d8769dadafe0.png",
-    "static/media/kasa4.png": "/Portfolio/static/media/kasa4.23e38b071cd140dee554.png",
-    "static/media/kasa2.png": "/Portfolio/static/media/kasa2.6808b9e336236ccea63b.png",
     "static/media/book4.png": "/Portfolio/static/media/book4.29d602afa84f4fa0e61f.png",
     "static/media/book3.png": "/Portfolio/static/media/book3.2d1cdd941c1928489423.png",
     "static/media/portfolio3.png": "/Portfolio/static/media/portfolio3.2961413740f26c06617b.png",
     "static/media/portfolio1.png": "/Portfolio/static/media/portfolio1.82bdc68665f946569a0d.png",
     "static/media/photo1.webp": "/Portfolio/static/media/photo1.0258e9daa1b783f33c8e.webp",
     "static/media/portfolio2.png": "/Portfolio/static/media/portfolio2.7ec2d5c9c39c71494095.png",
+    "static/media/cine-station-7.png": "/Portfolio/static/media/cine-station-7.8287181f44eccc7c3440.png",
     "static/media/book2.png": "/Portfolio/static/media/book2.83af5a74dfd2b4804483.png",
+    "static/media/cine-station-6.png": "/Portfolio/static/media/cine-station-6.947789b31e1401901ed6.png",
     "static/media/sass.svg": "/Portfolio/static/media/sass.2a06e46f0263bdac1ffd4c984775be51.svg",
     "static/media/reactjs.svg": "/Portfolio/static/media/reactjs.7442aa5b9ef5dbc21463289d68beeb64.svg",
     "static/media/github.svg": "/Portfolio/static/media/github.5531be85d7a8d6f333e5c7136944a022.svg",
@@ -25,10 +28,10 @@
     "static/media/mongodb.svg": "/Portfolio/static/media/mongodb.b6ed15d3c71dfb582a3b37101b6c8bc4.svg",
     "static/media/express.svg": "/Portfolio/static/media/express.a6606d033000bf34a5cfd8d1e9e92813.svg",
     "main.dd479f30.css.map": "/Portfolio/static/css/main.dd479f30.css.map",
-    "main.d5d6c876.js.map": "/Portfolio/static/js/main.d5d6c876.js.map"
+    "main.4a8bf6dc.js.map": "/Portfolio/static/js/main.4a8bf6dc.js.map"
   },
   "entrypoints": [
     "static/css/main.dd479f30.css",
-    "static/js/main.d5d6c876.js"
+    "static/js/main.4a8bf6dc.js"
   ]
 }
