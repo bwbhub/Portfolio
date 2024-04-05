@@ -25,7 +25,7 @@ const imagesPort = importAll(
 const listProject = [
   {
     title: "Cine-Station",
-    des: "I made this cinema app to work on my skills. You can navigate through movies, tv shows, and actors. you can signup (no email required so you can test it now !), sign in, update your password, add movies and tv shows to your favorites and leave reviews, you can also navigate through your favorites list, and do the same for the reviews you left.",
+    des: "This is a Full-stack project I made using MERN. The name speaks for itself, its a cinema app where you can browse through movies, tv shows, and actors. You can create an account without an email if you want the user functionnalities such as updating your password, adding stuff to your favorites leaving reviews, and checking the lists of your favorites and the reviews you left.",
     mission:
       "Full-stack project, create a server, develop an API and connect to MongoDB, create a securised authentification system with hashed password and token, API calls to get the movies/tv shows.",
     technologies: "MongoDB, Express, ReactJS, NodeJS",
