@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.dd479f30.css",
-    "main.js": "/Portfolio/static/js/main.f586ce3a.js",
+    "main.js": "/Portfolio/static/js/main.ddddf001.js",
     "static/media/cine-station-3.png": "/Portfolio/static/media/cine-station-3.6ff09da2df6f9b6a2d7b.png",
     "static/media/Brice_Bouhot_CV.pdf": "/Portfolio/static/media/Brice_Bouhot_CV.3f373abbc6b0e086e859.pdf",
     "static/media/cine-station-2.png": "/Portfolio/static/media/cine-station-2.ed6c2092848d0e29c0f7.png",
@@ -28,10 +28,10 @@
     "static/media/mongodb.svg": "/Portfolio/static/media/mongodb.b6ed15d3c71dfb582a3b37101b6c8bc4.svg",
     "static/media/express.svg": "/Portfolio/static/media/express.a6606d033000bf34a5cfd8d1e9e92813.svg",
     "main.dd479f30.css.map": "/Portfolio/static/css/main.dd479f30.css.map",
-    "main.f586ce3a.js.map": "/Portfolio/static/js/main.f586ce3a.js.map"
+    "main.ddddf001.js.map": "/Portfolio/static/js/main.ddddf001.js.map"
   },
   "entrypoints": [
     "static/css/main.dd479f30.css",
-    "static/js/main.f586ce3a.js"
+    "static/js/main.ddddf001.js"
   ]
 }
