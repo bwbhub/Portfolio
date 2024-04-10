@@ -14,4 +14,26 @@ footer {
     text-align: center;
     font-size: 0.75rem;
   }
+  & .tag {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    font-size: var(--fs-xxs);
+    padding: 5px 10px;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    background-color: #1b1b1b;
+    cursor: pointer;
+    transition: 300ms;
+    @media screen and (max-device-width: 590px) {
+      span {
+        display: none;
+      }
+    }
+    &:hover {
+      transform: scale(1.15);
+    }
+  }
 }

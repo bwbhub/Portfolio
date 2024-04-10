@@ -14,7 +14,7 @@ export default function Carousel({ picture }) {
 
   return (
     <div className="carousel">
-      <img src={picture[index]} alt={`Numéro ${index + 1}`} />
+      <img src={picture[index]} alt={`Numéro ${index + 1}`} loading="lazy" />
     </div>
   );
 }

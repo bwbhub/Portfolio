@@ -7,7 +7,7 @@ import figma from "../assets/figma.svg";
 import sass from "../assets/sass.svg";
 import github from "../assets/github.svg";
 import postman from "../assets/postman.svg";
-// import vercel from "../assets/vercel.svg";
+import vercel from "../assets/vercel.svg";
 import { useInView } from "react-intersection-observer";
 
 const listSkills = [
@@ -59,10 +59,10 @@ const listSkills = [
         logo: postman,
         name: "Postman",
       },
-      // {
-      //   logo: vercel,
-      //   name: "Vercel",
-      // },
+      {
+        logo: vercel,
+        name: "Vercel",
+      },
     ],
   },
 ];
@@ -89,8 +89,9 @@ export default function Skills() {
                     <li key={skill.name} className="list">
                       <img
                         src={skill.logo}
-                        alt={`icone of ${skill.name}`}
+                        alt={`${skill.name} logo`}
                         className="logo"
+                        loading="lazy"
                       />{" "}
                       {skill.name}
                     </li>
@@ -99,8 +100,9 @@ export default function Skills() {
                   <li className="list">
                     <img
                       src={value.skills.logo}
-                      alt={`icone of ${value.skills.name}`}
+                      alt={`${value.skills.name} logo`}
                       className="logo"
+                      loading="lazy"
                     />{" "}
                     {value.skills.name}
                   </li>

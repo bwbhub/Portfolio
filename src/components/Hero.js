@@ -62,7 +62,7 @@ export default function Hero() {
           </div>
         </div>
         <div className={`right-container hidden ${isVisible ? "active" : ""}`}>
-          <img src={photo} alt="Me" className="photo" />
+          <img src={photo} alt="Me" className="photo" fetchpriority="high" />
         </div>
       </div>
     </section>

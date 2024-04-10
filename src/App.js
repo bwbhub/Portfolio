@@ -6,11 +6,11 @@ import "./styles/app.scss";
 
 export default function App() {
   return (
-    <div id="home">
+    <main id="home">
       <Hero />
       <Skills />
       <Projects />
       <Contact />
-    </div>
+    </main>
   );
 }
