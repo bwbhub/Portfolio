@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.a701d6d0.css",
-    "main.js": "/Portfolio/static/js/main.c1abffc9.js",
+    "main.js": "/Portfolio/static/js/main.aa851fbd.js",
     "static/media/cine-station-3.png": "/Portfolio/static/media/cine-station-3.6ff09da2df6f9b6a2d7b.png",
-    "static/media/Brice_Bouhot_CV.pdf": "/Portfolio/static/media/Brice_Bouhot_CV.3f373abbc6b0e086e859.pdf",
+    "static/media/Brice_Bouhot_CV.pdf": "/Portfolio/static/media/Brice_Bouhot_CV.0a3d17b367e00bb046e3.pdf",
     "static/media/cine-station-2.png": "/Portfolio/static/media/cine-station-2.ed6c2092848d0e29c0f7.png",
     "static/media/cine-station-1.png": "/Portfolio/static/media/cine-station-1.a10511de7133feeb4e4a.png",
     "static/media/cine-station-5.png": "/Portfolio/static/media/cine-station-5.1dd26fc9373d8b8f9632.png",
@@ -29,10 +29,10 @@
     "static/media/express.svg": "/Portfolio/static/media/express.a6606d033000bf34a5cfd8d1e9e92813.svg",
     "static/media/vercel.svg": "/Portfolio/static/media/vercel.9b1230500274282a0f97ce0090cb7ecf.svg",
     "main.a701d6d0.css.map": "/Portfolio/static/css/main.a701d6d0.css.map",
-    "main.c1abffc9.js.map": "/Portfolio/static/js/main.c1abffc9.js.map"
+    "main.aa851fbd.js.map": "/Portfolio/static/js/main.aa851fbd.js.map"
   },
   "entrypoints": [
     "static/css/main.a701d6d0.css",
-    "static/js/main.c1abffc9.js"
+    "static/js/main.aa851fbd.js"
   ]
 }
