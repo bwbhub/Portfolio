@@ -1,0 +1,21 @@
+{
+  "hero": {
+    "main": "Hi, I'm Brice",
+    "second": "React Developer",
+    "resume": "Resume",
+    "mail": "Email me"
+  },
+  "header": {
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "footer": {
+    "text": "Designed and built by Brice Bouhot",
+    "code": "Source code"
+  },
+  "contact": {
+    "main": "Feel free to contact me.",
+    "name": "Name"
+  }
+}

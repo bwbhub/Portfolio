@@ -1,0 +1,16 @@
+@import url("../../fonts.scss");
+
+.toggle {
+  position: fixed;
+  bottom: 50px;
+  left: 50px;
+  & .btn {
+    padding: 15px 15px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    z-index: 100;
+    font-size: var(--fs-xs);
+    background-color: transparent;
+  }
+}

@@ -2,13 +2,16 @@ import "../styles/components/footer.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCopyright } from "@fortawesome/free-regular-svg-icons";
 import { faCode } from "@fortawesome/free-solid-svg-icons";
+import { useTranslation } from "react-i18next";
 
 export default function Footer() {
+  const [t] = useTranslation("global");
+
   return (
     <footer>
       <hr />
       <p className="text">
-        Designed and built by Brice Bouhot <br />
+        {t("footer.text")} <br />
         <br />
         <FontAwesomeIcon icon={faCopyright} /> Copyright 2024 - Brice Bouhot
       </p>
@@ -20,7 +23,7 @@ export default function Footer() {
       >
         {" "}
         <FontAwesomeIcon icon={faCode} />
-        <span>Source code</span>
+        <span>{t("footer.code")}</span>
       </a>
     </footer>
   );

@@ -2,10 +2,13 @@ import "../styles/components/contact.scss";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { Toaster, toast } from "sonner";
+import { useTranslation } from "react-i18next";
 
 export default function Contact() {
   const contactRef = useRef();
   const form = useRef();
+
+  const [t] = useTranslation("global");
 
   const resetform = () => {
     document.getElementById("contact-form").reset();
@@ -34,11 +37,11 @@ export default function Contact() {
     <section ref={contactRef} id="contact">
       <h2 className="title">Contact</h2>
       <div className="content">
-        <p className="des">Feel free to contact me.</p>
+        <p className="des">{t("contact.main")}</p>
         <Toaster position="bottom-center" />
         <form ref={form} onSubmit={sendEmail} id="contact-form">
           <div className="user-box">
-            <label htmlFor="from_name">Name</label>
+            <label htmlFor="from_name">{t("contact.name")}</label>
             <input type="text" name="from_name" id="from_name" required />
           </div>
           <div className="user-box">

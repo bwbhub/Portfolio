@@ -1,22 +1,14 @@
+import { useTranslation } from "react-i18next";
 import "../styles/components/header.scss";
 
 export default function Header() {
+  const [t] = useTranslation("global");
+
   return (
     <header>
       <p className="header-title">BWB</p>
       <nav>
         <ul className="header-nav">
-          <li
-            className="header-nav-link"
-            onClick={() => {
-              const hero = document.getElementById("hero");
-              hero?.scrollIntoView({
-                behavior: "smooth",
-              });
-            }}
-          >
-            Home
-          </li>
           <li
             className="header-nav-link"
             onClick={() => {
@@ -26,7 +18,7 @@ export default function Header() {
               });
             }}
           >
-            Skills
+            {t("header.skills")}
           </li>
           <li
             className="header-nav-link"
@@ -37,7 +29,7 @@ export default function Header() {
               });
             }}
           >
-            Projects
+            {t("header.projects")}
           </li>
           <li
             className="header-nav-link"
@@ -48,7 +40,7 @@ export default function Header() {
               });
             }}
           >
-            Contact
+            {t("header.contact")}
           </li>
         </ul>
       </nav>

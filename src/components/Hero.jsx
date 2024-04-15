@@ -5,18 +5,21 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faFile } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import resume from "../assets/Brice_Bouhot_CV.pdf";
+import { useTranslation } from "react-i18next";
 
 export default function Hero() {
   const { ref: heroRef, inView: isVisible } = useInView();
+  const [t] = useTranslation("global");
+
   return (
     <section id="hero" ref={heroRef}>
       <div className={`hero hidden ${isVisible ? "active" : ""}`}>
         <div className={`left-container hidden ${isVisible ? "active" : ""}`}>
           <h1 className={`title hidden ${isVisible ? "active" : ""}`}>
-            Hi, I'm Brice
+            {t("hero.main")}
           </h1>
           <h2 className={`title-nd hidden ${isVisible ? "active" : ""}`}>
-            Web Developer
+            {t("hero.second")}
           </h2>
           <div className={`social hidden ${isVisible ? "active" : ""}`}>
             <a
@@ -45,7 +48,7 @@ export default function Hero() {
               className="tag"
             >
               <FontAwesomeIcon icon={faFile} />
-              <span>Resume</span>
+              <span>{t("hero.resume")}</span>
             </a>
             <button
               className="tag"
@@ -57,7 +60,7 @@ export default function Hero() {
               }}
             >
               <FontAwesomeIcon icon={faEnvelope} />
-              <span>Email me</span>
+              <span>{t("hero.mail")}</span>
             </button>
           </div>
         </div>
